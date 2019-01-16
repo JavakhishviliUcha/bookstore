@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/JavakhishviliUcha/bookstore/precache-manifest.be6ac3a0128cd45a8a6844689a04103a.js"
+  "//bookstore/precache-manifest.909c5f92e988d419b4ca1b2a19c8b103.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/JavakhishviliUcha/bookstore/index.html", {
+workbox.routing.registerNavigationRoute("//bookstore/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
